@@ -55,6 +55,7 @@ Rails.application.routes.draw do
   #   end
 
   resources :home
+  resources :comment
   get 'home/comment', to: 'home#comment'
 
 
